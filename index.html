@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="title">Notre manipulation DOM</h1>
+
+   <ul>
+       <li>Riz <button onclick="allClick_one(-1)">-</button><span id="allClicks_one">0</span><button onclick="allClick_one(1)">+</button></li>
+       <hr>
+       <li>Mais <button onclick="allClick_two(-1)">-</button><span id="allClicks_two">0</span><button onclick="allClick_two(1)">+</button></li> 
+       <hr>
+       <li>Mil <button onclick="allClick_three(-1)">-</button><span id="allClicks_three">0</span><button onclick="allClick_three(1)">+</button></li> 
+       <hr>
+       <li>Huile <button onclick="allClick_four(-1)">-</button><span id="allClicks_four">0</span><button onclick="allClick_four(1)">+</button></li> 
+       <hr>
+   </ul>
+
+   <form action="" style="margin-top: 30px;" onsubmit="false">
+       <input type="text" placeholder="Ajouter un article" name="article" value="">
+       <button id="push">Ajouter</button>
+       
+   </form>
+
+   <script src="index.js"></script>
+</body>
+</html>
